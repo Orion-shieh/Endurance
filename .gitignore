@@ -1,0 +1,51 @@
+# ==========================================
+# SolidWorks 专属 Git 忽略规则 (.gitignore)
+# ==========================================
+
+# === SolidWorks 运行时临时锁定文件（以 ~$ 开头）===
+~$*.*
+~$*.sldprt
+~$*.sldasm
+~$*.slddrw
+~$*.SLDPRT
+~$*.SLDASM
+~$*.SLDDRW
+
+# === 自动备份、临时保存与崩溃恢复文件 ===
+*.bak
+*.BAK
+*.swb
+*.SWB
+*AutoRecover*
+Backup of *.*
+*.tmp
+*.TMP
+
+# === 仿真与有限元分析大文件缓存（Simulation / Flow Simulation / Motion）===
+*.cwr
+*.sim
+*.smp
+*.fld
+*.r1*
+*.r2*
+*.r3*
+*Results*/
+*Simulation*/
+*SolidWorks Flow Simulation*/
+
+# === SolidWorks 导出过程临时文件、错误日志与注册表配置 ===
+*.log
+*.err
+*.swp
+*.sldreg
+*.rpt
+
+# === 操作系统与 IDE 本地配置文件 ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.user

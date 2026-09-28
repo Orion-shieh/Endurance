@@ -1,0 +1,4 @@
+# Export_STL
+此目录用于存放导出的 STL 三角网格模型：
+1. GitHub 原生支持在网页端直接对 STL 文件进行 3D 旋转预览与缩放检查。
+2. 方便开源社区成员快速下载单件进行 3D 打印切片（支持 Bambu Studio, Cura, PrusaSlicer 等）。

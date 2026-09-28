@@ -1,0 +1,5 @@
+# Media
+此目录用于存放展示类多媒体资源：
+- `banner.png` / `render_main.png`（高清渲染主图，首屏展示）
+- `explosion.gif` / `assembly_animation.gif`（装配拆解或爆炸动画）
+- `real_photo.jpg`（3D 打印与组装完成的实物照片）

@@ -1,0 +1,6 @@
+# Export_STEP
+此目录用于存放导出的工业通用 STEP/STP 格式（推荐 AP214 或 AP242 协议）。
+供未安装 SolidWorks 2025 或使用 Fusion 360, FreeCAD, Inventor, Creo 的开发者打开。
+建议包含：
+- 永恒号_总装.STEP
+- 各主要模块独立 STEP
